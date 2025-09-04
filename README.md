@@ -1,97 +1,78 @@
-# aws-account-setup
-"AWS Account Setup Process with Step-by-Step Screenshots"
+# AWS Account Setup Project
 
+## 📌 Project Overview
+This project demonstrates how to set up a new **AWS account** step by step using the AWS Management Console.  
+The process includes account creation, identity verification, security setup, and first login.  
 
-# AWS Account Setup Guide
-
-## 📌 Project Summary
-This project documents the process of creating and setting up a new **AWS account** using the AWS Management Console.  
-The steps include signing up, verifying identity, setting a password, adding payment details, and logging into the console.  
-Each step is captured with screenshots for easy reference.
+Each stage is documented with screenshots to ensure clarity and reproducibility.  
 
 ---
 
-## 📝 Steps in AWS Account Setup
-
-### 1. Start AWS Account Signup
-Begin by navigating to [AWS Signup](https://aws.amazon.com/) and choosing **Create an AWS Account**.
-
-![AWS Setup Account](./screenshots/AWS_setup_Account.png)
-
----
-
-### 2. Verify Email Address
-Enter your email and verify it using a confirmation code sent to your inbox.
-
-![Verify Email](./screenshots/Verify_Email.png)  
-![Verification Code](./screenshots/Verification_code.png)
-
----
-
-### 3. Set Root Account Password
-Choose a secure root user password.
-
-![Set Root Password](./screenshots/Set_RootPasswd.png)
-
----
-
-### 4. Enter Personal Information
-Provide your personal or business details.
-
-![Personal Information](./screenshots/Personal_Information.png)
-
----
-
-### 5. CAPTCHA Verification
-Complete the CAPTCHA to proceed.
-
-![CAPTCHA Activation](./screenshots/CAPTCHA_Activation.png)
-
----
-
-### 6. Add Payment Method
-Enter your credit/debit card details for account verification.
-
-![OTP Payment](./screenshots/OTP_Payment.png)  
-![Payment Verification](./screenshots/Payment_Verification.png)
-
----
-
-### 7. Mobile Verification
-Receive and enter a code sent to your registered phone number.
-
-![Code Authentication](./screenshots/Code_Authentication.png)
-
----
-
-### 8. Select Support Plan
-Choose the **Basic Support – Free Plan**.
-
-![Basic Support Free Plan](./screenshots/BasicSupport_FreePlan.png)
-
----
-
-### 9. Login to AWS Console
-Once registration is complete, sign in with your root account email and password.
-
-![Sign Into Console](./screenshots/SignInto_Console.png)  
-![Console Success Login](./screenshots/AccountID_Console_Success_login.png)
+## 🎯 Learning Objectives
+- Learn how to create and activate an AWS account.  
+- Understand the basic steps in AWS identity and payment verification.  
+- Configure account security with email verification, password setup, and MFA.  
+- Navigate to the AWS Management Console for the first time.  
 
 ---
 
 ## 📂 Repository Structure
 
-
 aws-account-setup/
-│── screenshots/ # Folder containing all screenshots
-│── README.md # Documentation of AWS account setup
+│── README.md
+│── screenshots/
 
+
+
+---
+
+## 🖼️ AWS Account Setup Steps
+
+### 1. Start Account Creation
+![AWS Account Setup](./screenshots/AWS_setup_Account.png)
+
+### 2. Enter Personal Information
+![Personal Information](./screenshots/Personal_Information.png)
+
+### 3. Email Verification
+![Verify Email](./screenshots/Verify_Email.png)
+
+### 4. CAPTCHA Activation
+![CAPTCHA Activation](./screenshots/CAPTCHA_Activation.png)
+
+### 5. Verification Code
+![Verification Code](./screenshots/Verification_code.png)
+
+### 6. Code Authentication
+![Code Authentication](./screenshots/Code_Authentication.png)
+
+### 7. Payment Verification
+![Payment Verification](./screenshots/Payment_Verification.png)
+
+### 8. OTP Payment Confirmation
+![OTP Payment](./screenshots/OTP_Payment.png)
+
+### 9. Set Root Account Password
+![Set Root Password](./screenshots/Set_RootPasswd.png)
+
+### 10. Select Support Plan (Free Tier)
+![Basic Support Free Plan](./screenshots/BasicSupport_FreePlan.png)
+
+### 11. Successful Account Activation
+![Account ID Console Success Login](./screenshots/AccountID_Console_Success_login.png)
+
+### 12. Sign into AWS Console
+![Sign Into Console](./screenshots/SignInto_Console.png)
 
 ---
 
-## ✅ Conclusion
-You have successfully created and set up your AWS account.  
-This setup is the foundation for future projects using **AWS services** such as EC2, S3, IAM, RDS, and more.
+## ✅ Outcome
+By following these steps, a new AWS account was successfully created, verified, and accessed.  
+This account is now ready for deploying cloud resources under the **AWS Free Tier plan**.  
 
 ---
+
+## 🔗 Author
+- **Name:** Muftau A.  
+- **GitHub:** [MayorXs](https://github.com/MayorXs)  
 
